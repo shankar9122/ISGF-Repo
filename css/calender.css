@@ -111,6 +111,33 @@ html body .card#event .card-body .events-input .error {
 	top: 100%
 }
 
+
+@media screen and (max-width: 1024px) {
+	html body .card-body .days span {
+		background: #e27586;
+		color: #fff;
+		border-radius: 50%;
+		display: inline-block;
+		height: 22px;
+		width: 22px;
+		line-height: 22px;
+		cursor: pointer;
+		font-size: 8px;
+	}
+
+	html body .card-body .dates span {
+		background: transparent;
+		color: #000;
+		border-radius: 50%;
+		display: inline-block;
+		height: 22px;
+		width: 22px;
+		line-height: 22px;
+		cursor: pointer;
+	}
+}
+
+
 @media(max-width: 767px) {
 	html body .pa-sm {
 		position: absolute

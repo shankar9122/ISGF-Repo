@@ -45,31 +45,30 @@ let year = c_date.getFullYear();
                         Add Event
                         <button type="button" class="close hide float-end border-0 py-2 px-3 rounded">
                         <span aria-hidden="true">&times;</span>
-                    </div>
+                        </button>
+        </div>
       
-  </button>
         <div class="modal-body">
-            <div class="col-sm-12 col-12 d-flex pa-sm">
-                <div class="card border-0 flex-fill d-none" id="event">
+            <div class="col-sm-12 col-12 d-flex">
+                <div class="card border-0 flex-fill" id="event">
                     
-                    <div class="card-body">
-                        <div class="text-center">
-                            <span class="event-date">06 June 2020</span><br>
-                            <span class="event-day">Monday</span>
-                        </div> 
-                        <div class="events-today my-3 px-3">
-                           
-                        </div> 
-                        <div class="input-group events-input mb-3 col-10 mx-auto mt-2">
-                            <input type="text" class="form-control" placeholder="Add Event" id="eventTxt">
-                            <div class="input-group-append">
-                                <button class="btn event_btn" type="button" id="createEvent">+</button>
-                            </div>
-                        </div>                        
+                <div class="card-body">
+                <div class="text-center">
+                    <span class="event-date">19 August 2021</span><br>
+                    <span class="event-day">Thursday</span>
+                </div> 
+                <div class="events-today my-3 px-3"><h5 class="text-center">No events found</h5></div> 
+                <div class="input-group events-input mb-3 col-10 mx-auto mt-2">
+                    <input type="text" class="form-control" placeholder="Add Event" id="eventTxt">
+                    <div class="input-group-append">
+                        <button class="btn event_btn" type="button" id="createEvent">+</button>
                     </div>
+                </div>                        
+            </div>
                 </div>                            
             </div>
         </div>
+        
         
     </div>
       </div>
