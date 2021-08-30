@@ -671,6 +671,10 @@ footer{
     padding-right: 4px;
 }
 
+.modal-dialog {
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 
 /* ---------------------- media query-------------------------- */
